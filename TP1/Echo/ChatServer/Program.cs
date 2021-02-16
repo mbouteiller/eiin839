@@ -10,6 +10,7 @@ namespace Echo
 {
     class EchoServer
     {
+
         [Obsolete]
         static void Main(string[] args)
         {
@@ -36,6 +37,7 @@ namespace Echo
 
     public class handleClient
     {
+
         TcpClient clientSocket;
         public void startClient(TcpClient inClientSocket)
         {
@@ -43,8 +45,6 @@ namespace Echo
             Thread ctThread = new Thread(Echo);
             ctThread.Start();
         }
-
-
 
         private void Echo()
         {
@@ -54,15 +54,16 @@ namespace Echo
 
             while (true)
             {
-
                 string str = reader.ReadString();
                 Console.WriteLine(str);
                 writer.Write(str);
+
+                if (str.Equals("GET /index.html"))
+                {
+                    Console.WriteLine("get accepted");
+                }
             }
         }
-
-
-
     }
 
 }
