@@ -13,5 +13,15 @@ namespace BasicHeader
         {
             return request.Headers.ToString();
         }
+
+        public long getBodyLength(HttpListenerRequest request)
+        {
+            return request.ContentLength64;
+        }
+
+        public bool IsLocal(HttpListenerRequest request)
+        {
+            return request.IsLocal;
+        }
     }
 }
