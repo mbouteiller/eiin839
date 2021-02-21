@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TP1\\Echo\\ChatServer\\EchoServer.csproj": {}
+    "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TD1\\Echo\\ChatServer\\EchoServer.csproj": {}
   },
   "projects": {
-    "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TP1\\Echo\\ChatServer\\EchoServer.csproj": {
+    "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TD1\\Echo\\ChatServer\\EchoServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TP1\\Echo\\ChatServer\\EchoServer.csproj",
+        "projectUniqueName": "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TD1\\Echo\\ChatServer\\EchoServer.csproj",
         "projectName": "EchoServer",
-        "projectPath": "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TP1\\Echo\\ChatServer\\EchoServer.csproj",
+        "projectPath": "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TD1\\Echo\\ChatServer\\EchoServer.csproj",
         "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TP1\\Echo\\ChatServer\\obj\\",
+        "outputPath": "D:\\Martin\\Cours SI4\\S8\\WS\\eiin839\\TD1\\Echo\\ChatServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
