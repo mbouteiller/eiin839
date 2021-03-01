@@ -72,10 +72,18 @@ namespace BasicServerHTTPlistener
                 HttpListenerResponse response = context.Response;
 
                 // Construct a response.
-                string responseString = 
-                    "<HTML><BODY> Hello world!</BODY></HTML>" + Environment.NewLine 
-                    + header.getHeader(request) + Environment.NewLine
-                    + header.getBodyLength(request) + Environment.NewLine ;
+                string responseString =
+                    "<HTML><BODY> Hello world!</BODY></HTML>" + Environment.NewLine
+                    + header.getHeader(request) + Environment.NewLine;
+
+                if (header.getBodyLength(request)>0)
+                {
+                    responseString += "What a nice body !" + Environment.NewLine;
+                }
+                else
+                {
+                    responseString += "Body's request is empty" + Environment.NewLine;
+                }
 
                 if (header.IsLocal(request))
                 {
