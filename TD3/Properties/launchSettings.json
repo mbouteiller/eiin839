@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TD3": {
+      "commandName": "Project",
+      "commandLineArgs": "rouen 5"
+    }
+  }
+}
